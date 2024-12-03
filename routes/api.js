@@ -8,7 +8,7 @@ const wicdController = require('../controllers/wicdController');
 const heroController = require('../controllers/heroController');
 
 // Existing routes...
-router.get('/portfolio', portfolioController.sayHelloWorld);
+
 // WICD routes
 router.get('/wicds', wicdController.getWicds);
 router.post('/wicds', wicdController.createWicd);
