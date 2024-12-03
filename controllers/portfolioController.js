@@ -10,10 +10,7 @@ exports.createPortfolioItem = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
-// Send "Hello World" on /lol endpoint
-exports.sayHelloWorld = (req, res) => {
-  res.send('Hello World');
-};
+
 
 // Get all portfolio items
 exports.getPortfolioItems = async (req, res) => {
